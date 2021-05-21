@@ -11,6 +11,7 @@
         '. home places shops misc .'
 }
 .title {
+  font-size: 25px;
     grid-area: title;
 }
 .home {
@@ -97,7 +98,7 @@ h2, h4{
   background-color: #83FF75;
   align-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   color: white;
 }
 .a1 {
@@ -106,7 +107,7 @@ h2, h4{
   background-color: #FD9C89;
   align-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   color: white;
 }
 a {
