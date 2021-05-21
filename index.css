@@ -2,6 +2,7 @@ html{
     background-image: url(IMGpog.jpg);
     background-size: streach;
     font-family: 'Sunflower', sans-serif;
+    max-width: 99%;
 }
 h3 {
     color: white;
