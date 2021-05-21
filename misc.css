@@ -1,0 +1,125 @@
+html {
+  background-color: #CDF0E6;
+  height: 100%;
+}
+.site {
+  display: grid;
+  height: 100%;
+  grid-gap: 5px;
+  grid-template-columns: 2fr 5% 2fr;
+  grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+  font-family: 'Sunflower', sans-serif;
+  grid-template-areas:
+  'header header header'
+  'div1 div1 div2'
+  'div3 div4 div4'
+  'footer footer footer';
+  }
+.header {
+  display: grid;
+  background-color: #A8D9D0;
+  color: azure;
+  text-align: center;
+  grid-area: header;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+      'title title title title title title'
+      '. home places shops misc .'
+  }
+.title {
+  grid-area: title;
+  }
+.home{
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: home;
+  text-decoration: none;
+  }
+  .home:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+.places{
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: places;
+  text-decoration: none;
+  }
+  .places:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+.shops{
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: shops;
+  text-decoration: none;
+  }
+  .shops:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+.misc {
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: misc;
+  text-decoration: none;
+  }
+  .misc:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+.footer {
+  background-color: #7EBC86;
+  color: #424222;
+  align-content: center;
+  text-align: center;
+  grid-area: footer;
+  text-decoration: none;
+ }
+.div1 {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  background-color: #339989;
+  grid-area: div1;
+  font-size: 15px;
+ }
+.div2 {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  background-color: #339989;
+  grid-area: div2;
+  font-size: 15px;
+ }
+.div3 {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  background-color: #339989;
+  grid-area: div3;
+  font-size: 15px;
+ }
+.div4 {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  background-color: #339989;
+  grid-area: div4;
+  font-size: 15px;
+ }
+ a {
+     display: block;
+     text-decoration: none;
+     color: black;
+ }

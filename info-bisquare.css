@@ -1,0 +1,194 @@
+html {
+  background-color: #CDF0E6;
+  height: 100%;
+}
+.site {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 5fr 4fr 4fr 4fr 4fr 4fr 4fr 5fr;
+  font-family: 'Sunflower', sans-serif;
+  grid-template-areas:
+    'header header'
+    'redL greenR'
+    'greenL redR'
+    'redL2 greenR2'
+    'greenL2 redR2'
+    'redL3 greenR3'
+    'greenL3 redR3'
+    'footer footer' ;
+  }
+.header {
+  display: grid;
+  background-color: #A8D9D0;
+  color: azure;
+  text-align: center;
+  grid-area: header;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+      'title title title title title title'
+      '. home places shops misc .'
+  }
+.title {
+  grid-area: title;
+  }
+.home{
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: home;
+  text-decoration: none;
+  }
+  .home:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+.places{
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: places;
+  text-decoration: none;
+  }
+  .places:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+.shops{
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: shops;
+  text-decoration: none;
+  }
+  .shops:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+.misc {
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: misc;
+  text-decoration: none;
+  }
+  .misc:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+/*the following are the classes for the info parts.*/
+.greenL {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #83FF75;
+  grid-area: greenL;
+  font-size: 20px;
+  }
+.greenR {
+  display: grid ;
+  text-align: center;
+  align-items: center;
+  background-color: #83FF75;
+  grid-area: greenR;
+  font-size: 20px;
+  }
+.redL {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #FD9C89;
+  grid-area: redL;
+  font-size: 20px;
+  }
+.redR {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #FD9C89;
+  grid-area: redR;
+  font-size: 20px;
+  }
+/* the following are the second bunch of classes */
+.greenL2 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #83FF75;
+  grid-area: greenL2;
+  font-size: 20px;
+  }
+.greenR2 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #83FF75;
+  grid-area: greenR2;
+  font-size: 20px;
+  }
+.redL2 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #FD9C89;
+  grid-area: redL2;
+  font-size: 20px;
+  }
+.redR2 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #FD9C89;
+  grid-area: redR2;
+  font-size: 20px;
+  }
+/* the following are the third bunch of classes */
+.greenL3 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #83FF75;
+  grid-area: greenL3;
+  font-size: 20px;
+  }
+.greenR3 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #83FF75;
+  grid-area: greenR3;
+  font-size: 20px;
+  }
+.redL3 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #FD9C89;
+  grid-area: redL3;
+  font-size: 20px;
+  }
+.redR3 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #FD9C89;
+  grid-area: redR3;
+  font-size: 20px;
+  }
+/* end of classes */
+.footer {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  grid-area: footer;
+  background-color: #A8D9D0;
+  }
+a {
+  text-decoration: none;
+  color: black;
+  }
