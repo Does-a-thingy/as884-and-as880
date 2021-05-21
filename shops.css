@@ -5,7 +5,7 @@
     text-align: center;
     grid-area: header;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 3fr 2fr;
     grid-template-areas:
         'title title title title title title'
         '. home places shops misc .'
@@ -75,12 +75,13 @@ h2, h4{
     color: aliceblue;
 }
 .site {
+  margin-left: 1%;
   max-height: 100%;
-  max-width: 95%;
+  max-width: 98%;
   display: grid;
   grid-gap: 2px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 4fr 3fr 3fr 4fr 3fr 3fr 2fr;
+  grid-template-rows: 4fr 3fr 3fr 4fr 2fr 3fr 2fr;
   font-family: 'Sunflower', sans-serif;
   grid-template-areas:
     "header header"
