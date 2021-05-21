@@ -1,0 +1,113 @@
+html {
+  background-color: #CDF0E6;
+  height: 100%;
+}
+.site {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 5fr 4fr 4fr 4fr 4fr 4fr 4fr 5fr;
+  font-family: 'Sunflower', sans-serif;
+  grid-template-areas:
+    'header header'
+    'redL greenR'
+    'greenL redR'
+    'redL2 greenR2'
+    'greenL2 redR2'
+    'redL3 greenR3'
+    'greenL3 redR3'
+    'footer footer' ;
+  }
+.header {
+  display: grid;
+  background-color: #A8D9D0;
+  color: azure;
+  text-align: center;
+  grid-area: header;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+      'title title title title title title'
+      '. home places shops misc .'
+  }
+.title {
+  grid-area: title;
+  }
+.home{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: home;
+  text-decoration: none;
+  }
+  .home:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+.places{
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: places;
+  text-decoration: none;
+  }
+  .places:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+.shops{
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: shops;
+  text-decoration: none;
+  }
+  .shops:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+.misc {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  background-color: rgba(240, 223, 117, 1);
+  grid-area: misc;
+  text-decoration: none;
+  }
+  .misc:hover {
+    background-color: rgba(240, 230, 120, 1);
+    color: #919191;
+  }
+
+.footer {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  grid-area: footer;
+  background-color: #A8D9D0;
+  }
+
+.divR {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    background-color: #FD9C89;
+    grid-area: div1;
+    font-size: 25px;
+}
+
+.divG {
+    display: grid;
+    background-color: #83FF75;
+    grid-area: div2;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+}
