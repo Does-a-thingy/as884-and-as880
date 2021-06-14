@@ -128,7 +128,7 @@ html {
     text-align: center;
     font-size: 25px;
 }
-.div4 {
+.div5 {
     display: grid;
     align-content: center;
     text-align: center;
@@ -137,7 +137,7 @@ html {
     font-size: 25px;
 }
 
-.div4 {
+.div6 {
     display: grid;
     background-color: #83FF75;
     grid-area: div6;
