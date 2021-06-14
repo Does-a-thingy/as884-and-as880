@@ -5,18 +5,18 @@ html {
 .site {
   display: grid;
   height: 100%;
-  grid-template-columns: 4fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-rows: 5fr 4fr 4fr 4fr 4fr 4fr 4fr 5fr;
   font-family: 'Sunflower', sans-serif;
   grid-template-areas:
-    'header'
-    'div1'
-    'div2'
-    'div3'
-    'div4'
-    'div5'
-    'div6'
-    'footer' ;
+    'header header'
+    'div1 div1'
+    'div2 div2'
+    'div3 div3'
+    'div4 div4'
+    'div5 div5'
+    'div6 div6'
+    'footer footer' ;
   }
 .header {
   display: grid;
