@@ -5,18 +5,18 @@ html {
 .site {
   display: grid;
   height: 100%;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 4fr;
   grid-template-rows: 5fr 4fr 4fr 4fr 4fr 4fr 4fr 5fr;
   font-family: 'Sunflower', sans-serif;
   grid-template-areas:
-    'header header'
-    'redL greenR'
-    'greenL redR'
-    'redL2 greenR2'
-    'greenL2 redR2'
-    'redL3 greenR3'
-    'greenL3 redR3'
-    'footer footer' ;
+    'header'
+    'div1'
+    'div2'
+    'div3'
+    'div4'
+    'div5'
+    'div6'
+    'footer' ;
   }
 .header {
   display: grid;
@@ -94,7 +94,7 @@ html {
   background-color: #A8D9D0;
   }
 
-.divR {
+.div1 {
     display: grid;
     align-content: center;
     text-align: center;
@@ -103,10 +103,44 @@ html {
     font-size: 25px;
 }
 
-.divG {
+.div2 {
     display: grid;
     background-color: #83FF75;
     grid-area: div2;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.div3 {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    background-color: #FD9C89;
+    grid-area: div3;
+    font-size: 25px;
+}
+
+.div4 {
+    display: grid;
+    background-color: #83FF75;
+    grid-area: div4;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.div4 {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    background-color: #FD9C89;
+    grid-area: div5;
+    font-size: 25px;
+}
+
+.div4 {
+    display: grid;
+    background-color: #83FF75;
+    grid-area: div6;
     align-content: center;
     text-align: center;
     font-size: 25px;
