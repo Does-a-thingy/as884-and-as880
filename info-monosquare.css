@@ -44,7 +44,7 @@ html {
   text-decoration: none;
   }
   .home:hover {
-    background-color: rgba(240, 230, 120, 1);
+    background-color: rgba(245, 230, 120, 1);
     color: #919191;
   }
 .places{
@@ -56,7 +56,7 @@ html {
   text-decoration: none;
   }
   .places:hover {
-    background-color: rgba(240, 230, 120, 1);
+    background-color: rgba(245, 230, 120, 1);
     color: #919191;
   }
 .shops{
@@ -68,7 +68,7 @@ html {
   text-decoration: none;
   }
   .shops:hover {
-    background-color: rgba(240, 230, 120, 1);
+    background-color: rgba(245, 230, 120, 1);
     color: #919191;
   }
 .misc {
@@ -82,7 +82,7 @@ html {
   text-decoration: none;
   }
   .misc:hover {
-    background-color: rgba(240, 230, 120, 1);
+    background-color: rgba(245, 230, 120, 1);
     color: #919191;
   }
 
@@ -145,3 +145,7 @@ html {
     text-align: center;
     font-size: 25px;
 }
+a {
+  text-decoration: none;
+  color: black;
+  }
